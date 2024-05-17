@@ -1,0 +1,59 @@
+.side-bar {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    bottom: 0px;
+    width: 85px;
+    border-right-style: solid;
+    border-right-color: rgb(228, 228, 228);
+    border-right-width: 1px;
+}
+
+.section-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeBtn {
+    text-align: center;
+    width: 80px;
+}
+
+.homeBtn-action {
+    padding-left: 5px;
+    text-align: center;
+    width: 85px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: opacity 0.2s, background-color 0.2s;
+}
+
+.homeBtn-action:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.homeBtn-action:active {
+    opacity: 0.4;
+}
+
+.homeIcon {
+    padding-top: 10px;
+    object-fit: fill;
+    object-position: center;
+    height: 40%;
+    width: 40%;
+}
+
+.side-bar-text {
+    font-size: 10px;
+    padding-top: 8px;
+    margin: 0;
+    font-family: Roboto;
+
+}
